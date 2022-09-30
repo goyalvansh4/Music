@@ -167,3 +167,16 @@ a, a:hover {
 .header_hero img:hover {
   filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
 }/*# sourceMappingURL=main.css.map */
+
+@media screen and (max-width:767px) and (min-width:200px){
+  html{
+    font-size:50%;
+  }
+  .header_hero img {
+    height: 50vh;
+  }
+  .header_hero {
+  width: 50%;
+  height: 50vh;
+}
+}
