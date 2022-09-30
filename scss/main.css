@@ -173,10 +173,10 @@ a, a:hover {
     font-size:50%;
   }
   .header_hero img {
-    height: 50vh;
+    display:none;
   }
   .header_hero {
-  width: 50%;
+  width: 100%;
   height: 50vh;
 }
 }
